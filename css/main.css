@@ -1,0 +1,92 @@
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header{
+        text-align: center;    
+}
+header h1{
+    font-size: 2em;   /*2*16px*/ /* rem depend on father*/
+    font-weight: normal ;
+    border: 1px solid #fff;
+    padding: 20px 50PX 10PX 20px;
+    margin: 100PX 100PX 50PX 20px;
+}
+header h2{
+    font-size: 1em;
+    font-weight: normal; /*درجة الخط*/
+}
+.sec{
+padding: 0 100px;
+margin-bottom: 50px;
+}
+.sec h3{
+    font-size: 1em;
+    font-weight: normal;
+    text-align: left;
+}
+.sec hr{
+    width: 250px;
+    margin: 0;  /* to remove the default margin auoto */
+    border:0;
+    height: 1px;
+    background-color: #fff;
+}
+.my p{
+    color: #999;
+    text-align: justify;
+    line-height: 1.5em;
+}
+.my p::first-letter{
+    font-size: 2em;
+    color: #fff;
+    margin-left: 1em;
+}
+.progress{
+    height: 25px;
+    background-color: #fff;
+}
+.progress > div{
+    height: 100px;
+    /* background-color: #999; */
+
+}
+.stats{
+    background-color: #ccc;
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.stats > div { /*الابناء المباشرة */
+    flex: 1;
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+.stats strong{
+    display: block;
+}
+.btn{
+    padding: 7px 28px;
+    background-color: #ccc;
+    text-decoration: none;
+    color: #000;
+    border-radius: 20px;
+    font-weight:bold;
+}
+form input,textarea{
+    width: 100%;
+    background-color: #FFF;
+    border: 0;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.hide{
+    display: none;
+}
+.error{
+    color: red;
+}
